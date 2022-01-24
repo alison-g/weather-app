@@ -1,0 +1,184 @@
+h1 {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  font-size: 35px;
+}
+
+h2 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+h6 {
+  text-align: center;
+  font-size: 15px;
+}
+
+footer {
+  text-align: left;
+  margin: 10px 0px 0px;
+}
+
+.container {
+  font-family: "Quicksand", sans-serif;
+  width: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #eae8fc;
+  border-radius: 5px;
+  border-color: grey;
+  padding: 20px;
+}
+
+.time {
+  font-size: 20px;
+  position: relative;
+  left: 155px;
+  font-weight: 100px;
+}
+
+.farenheit {
+  text-decoration: none;
+  font-size: 20px;
+  position: absolute;
+  font-style: none;
+}
+
+.temperatureCentigrade {
+  text-decoration: none;
+  font-weight: 200px;
+  font-style: none;
+  font-size: 20px;
+  position: relative;
+  left: 40px;
+  bottom: 0.5px;
+}
+
+.farenheit:hover {
+  color: black;
+}
+
+.temperatureCentigrade:hover {
+  color: black;
+}
+
+.centigrade {
+  position: relative;
+  top: -8px;
+}
+
+.time {
+  font-size: 20px;
+  position: relative;
+  bottom: 45px;
+  font-weight: 100px;
+}
+
+.btn-secondary {
+  margin-right: 10px;
+  background-color: #6b62ff;
+  opacity: 0.2px;
+  border: none;
+  margin-top: 1px;
+}
+
+.btn-secondary:hover {
+  transition: ease-in-out 200ms;
+  background-color: #81817f;
+  border: none;
+}
+
+.weatherInfo {
+  font-size: 15px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.search-town {
+  margin-left: 45px;
+}
+
+.city-image {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  width: 100px;
+}
+
+.fa-sun {
+  font-size: 40px;
+  position: relative;
+  margin-left: 45px;
+  margin-top: 10px;
+  color: #6b62ff;
+}
+
+.fa-cloud-sun-rain {
+  font-size: 40px;
+  position: relative;
+  margin-left: 45px;
+  margin-top: 10px;
+  color: #6b62ff;
+}
+
+.temp {
+  font-size: 25px;
+  font-weight: 300px;
+  margin: 0 auto;
+}
+
+#city-name {
+  margin-top: -30px;
+}
+
+#main-icon {
+  color: #6b62ff;
+  left: 30px;
+  margin: 10px;
+  font-size: 60px;
+}
+
+#weather {
+  font-size: 25px;
+}
+
+#mainTemp {
+  text-align: center;
+  font-size: 35px;
+  position: relative;
+}
+
+#mainC {
+  text-align: left;
+  font-size: 20px;
+  position: relative;
+  bottom: 9px;
+}
+
+#line {
+  max-width: 60px;
+  position: relative;
+  left: 200px;
+}
+
+.button {
+  color: #6b62ff;
+}
+
+#current:hover {
+  transition: ease-in-out 200ms;
+  color: #6b62ff;
+}
+
+#snowflake {
+  font-size: 40px;
+  position: relative;
+  margin-left: 45px;
+  margin-top: 10px;
+  color: #6b62ff;
+}
